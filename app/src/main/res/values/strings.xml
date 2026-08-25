@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wazuh Log Forwarder</string>
+    <string name="label_host">Wazuh manager host / IP</string>
+    <string name="label_port">Port</string>
+    <string name="label_protocol">Protocol</string>
+    <string name="label_autostart">Start forwarding on boot</string>
+    <string name="btn_start">Start Forwarding</string>
+    <string name="btn_stop">Stop Forwarding</string>
+    <string name="btn_test">Send Test Message</string>
+    <string name="btn_grant_help">READ_LOGS grant instructions</string>
+    <string name="btn_battery">Ignore battery optimizations</string>
+    <string name="status_stopped">Status: stopped</string>
+    <string name="notification_channel_name">Log Forwarder</string>
+    <string name="notification_running">Forwarding device logs to Wazuh</string>
+
+    <string name="btn_view_live">View Live Logs</string>
+    <string name="btn_save_zip">Save Log Files as ZIP</string>
+    <string name="live_log_title">Live Log</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_close">Close</string>
+    <string name="label_filter">Filter (contains)</string>
+    <string name="toast_zip_saved">Log files saved</string>
+    <string name="toast_zip_failed">Failed to save zip: %1$s</string>
+    <string name="toast_zip_empty">No log files yet — start forwarding first</string>
+</resources>

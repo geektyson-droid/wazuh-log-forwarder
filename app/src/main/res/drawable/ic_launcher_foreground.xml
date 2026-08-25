@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- simple stylised "log line + arrow" glyph -->
+    <path
+        android:fillColor="#00E5A0"
+        android:pathData="M24,40h60v8h-60z" />
+    <path
+        android:fillColor="#00E5A0"
+        android:pathData="M24,54h40v8h-40z" />
+    <path
+        android:fillColor="#00E5A0"
+        android:pathData="M24,68h50v8h-50z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,30l14,14l-14,14l-4,-4l7,-7l-56,0l0,-6l56,0l-7,-7z" />
+</vector>
