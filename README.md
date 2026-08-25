@@ -32,13 +32,18 @@ tells you whether full access is active.
 
 ## Building the APK
 
-Everything needed is already vendored under `C:\Android` on this machine:
+Requires a JDK 17+, the Android SDK (platform 34, build-tools 34.0.0),
+and Gradle 8.9+. Easiest path is opening this folder in
+[Android Studio](https://developer.android.com/studio) and using
+**Build > Build APK(s)** — it'll fetch what it needs automatically.
+
+To build from the command line instead, point `JAVA_HOME` and
+`ANDROID_HOME` at your own JDK/SDK install locations, then:
 
 ```bash
-cd /c/Claude/WazuhLogForwarder
-export JAVA_HOME="/c/Program Files/Eclipse Adoptium/jdk-17.0.20.8-hotspot"
-export ANDROID_HOME="/c/Android/sdk"
-export PATH="$JAVA_HOME/bin:/c/Android/gradle-8.9/bin:$PATH"
+export JAVA_HOME=/path/to/your/jdk-17
+export ANDROID_HOME=/path/to/your/android-sdk
+export PATH="$JAVA_HOME/bin:$PATH"
 gradle assembleDebug
 ```
 
